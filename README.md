@@ -4,13 +4,13 @@ What started as a [simple extension](https://github.com/proggR/diamond-hardhat) 
 
 I imagine DFM/diamond.json being to Diamond driven Solidity development what NPM/package.json is to Node dev. Now that I've seen it... I can't unsee it.
 
-Still a very crude implementation, uploading to test a second offshoot prototype: [dfm-min.js](https://github.com/proggR/dfm-min) (will be a 404 for the moment), a simple script that depends on only git and node being installed, and then starts with nothing but a diamond.json file and installs the dev environment you need around it with a simple `node dfm-min.js` (more to come once that link doesn't 404).
+Still a very crude implementation, uploading to test a second offshoot prototype: [dfm-min.js](https://github.com/proggR/dfm-min), a simple script that depends on only git and node being installed, and then starts with nothing but a diamond.json file and installs the dev environment you need around it with a simple `node dfm-min.js`.
 
 ## diamond.json
 
 At the moment, most of the file is ignored, but 2 fields are worth noting: `repository` and `dependencies`.
 
-The repository URL is used by `dfm-min.js` (yet to be published) to clone the referenced project. If omitted, dfm-min will fall back on the base repo (this one), which may work for some projects, while others will want to base from their own.
+The repository URL is used by `dfm-min.js` to clone the referenced project. If omitted, dfm-min will fall back on the base repo (this one), which may work for some projects, while others will want to base from their own or another existing DFM project.
 
 The dependencies are used by `lib/dfm/dfm.js` to import facets into the project. Atm, only github repositories are supported, and are supported in the format of `<account>/<repo>` with no leading/trailing slashes.
 
