@@ -1,0 +1,9 @@
+node_modules
+diamond_facets
+typechain-types
+scrap
+
+#Hardhat files
+cache
+artifacts
+.env

@@ -1,0 +1,38 @@
+{
+  "name": "dfm",
+  "version": "0.0.0",
+  "description": "Diamond Facet Manager: like NPM, but for Diamond driven Solidity dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/proggR/diamond-hardhat.git"
+  },
+  "author": "DFM by @proggR, Diamond Standard/Core Smart Contracts by Nick Mudge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/proggR/diamond-hardhat/issues"
+  },
+  "homepage": "https://github.com/proggR/diamond-hardhat#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.4",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.0",
+    "@nomiclabs/hardhat-etherscan": "^3.1.1",
+    "chai": "^4.3.6",
+    "hardhat": "^2.11.2",
+    "hardhat-deploy": "^0.11.16",
+    "mocha-steps": "^1.3.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.1",
+    "hardhat-contract-sizer": "^2.6.1",
+    "hardhat-gas-reporter": "^1.0.9",
+    "simple-git": "^3.14.1"
+  }
+}

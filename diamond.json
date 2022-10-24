@@ -1,0 +1,22 @@
+{
+  "name": "dfm-hello-erc20-example",
+  "version": "0.0.0",
+  "description": "An example diamond building ERC2535 smart contracts with DFM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "url": "https://github.com/proggR/dfm.git"
+  },
+  "author": "@proggR",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/proggR/dfm/issues"
+  },
+  "homepage": "https://github.com/proggR/dfm#readme",
+  "dependencies": {
+    "proggR/DiamondGreeterFacet": "^0.0.0",
+    "proggR/DiamondERC20Facet": "^0.0.0"
+  }
+}
